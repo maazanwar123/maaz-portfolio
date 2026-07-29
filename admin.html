@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stored Results</title>
+</head>
+<body>
+
+<h1>Student Results</h1>
+
+<table border="1" cellpadding="10">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Score</th>
+            <th>Total</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody id="resultTable"></tbody>
+</table>
+
+<script>
+let results =
+JSON.parse(localStorage.getItem("allResults")) || [];
+
+let output = "";
+
+results.forEach(result => {
+    output += `
+    <tr>
+        <td>${result.username}</td>
+        <td>${result.score}</td>
+        <td>${result.total}</td>
+        <td>${result.date}</td>
+    </tr>`;
+});
+
+document.getElementById("resultTable").innerHTML = output;
+</script>
+
+</body>
+</html>
