@@ -20,11 +20,7 @@ Currently learning Full Stack Web Development and improving my React & Python sk
 
 ---
 
-## 🛠 Tech Stack
 
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,js,react,python,git,github,vscode" />
-</p>
 
 ---
 
