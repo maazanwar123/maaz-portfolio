@@ -40,7 +40,7 @@ Currently learning Full Stack Web Development and improving my React & Python sk
 
 ## 📫 Contact Me
 
-📧 maazkhan00711@gmail.com
+📧 📧 Email: [yourname@gmail.com](mailto:maazkhan00711@gmail.com)
 
 💼 LinkedIn (Coming Soon)
 
